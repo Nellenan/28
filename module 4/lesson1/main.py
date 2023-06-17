@@ -10,6 +10,8 @@
 # strcount('abacacbabcb')
 
 
+
+
 def strcount(s):   # O(N)
     dct = {}
     for sym in s:
