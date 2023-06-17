@@ -1,0 +1,145 @@
+#Первое задание
+list_with_facts = [
+    'Хамелеоны могут двигать глазами в разных направлениях одновременно',
+    'Змеи видят через веки',
+    'У коал отпечатки пальцев похожи на человеческие',
+    'Белые медведи - левши'
+    ]
+
+fact_number = int(input('Введите номер факта: '))
+
+print(list_with_facts[fact_number])
+
+
+
+
+#Второе задание 
+marks = [3, 4, 5, 2, 3, 5,4, 5, 5, 5,]
+summa = sum(marks)
+lengt_of_list = len(marks)
+
+result = summa / lengt_of_list
+print('Средняя оценка: ' + str(result))
+
+the_best_mark = max(marks)
+print("Лучшая оценка: " + str(the_best_mark))
+
+the_bad_mark = min(marks)
+print('Худшая оценка: ' + str(the_bad_mark))
+
+five_count = marks.count(5)
+print('Кол-во 5: ' + str(five_count))
+
+
+
+
+#Третье задание
+first_mark = int(input('Введите оценку по русскому языку: '))
+second_mark = int(input('Введите оценку по математике: '))
+third_mark = int(input('Введите оценку по информатике: '))
+
+marks.append(first_mark)
+marks.append(second_mark)
+marks.append(third_mark)
+
+summa = sum(marks)
+lengt_of_list = len(marks)
+
+result = summa / lengt_of_list
+print('Средняя оценка: ' + str(result))
+
+the_best_mark = max(marks)
+print("Лучшая оценка: " + str(the_best_mark))
+
+the_bad_mark = min(marks)
+print('Худшая оценка: ' + str(the_bad_mark))
+
+five_count = marks.count(5)
+print('Кол-во 5: ' + str(five_count))
+
+
+
+
+
+#Четвёртое задание
+marks = [4, 5, 1, 2, 3]
+
+#Удаление по индексу
+print('Изначальный список', marks)
+del marks[0]
+print('Список после удаления нулевого элемента ', marks)
+
+#Удаление по значению
+print('Изначальный список', marks)
+marks.remove(5)
+print('Список после того как удалили 5', marks)
+
+#Метод index
+print('Индекс двоечки: ', marks)
+
+#Сортировка списка
+marks = [2, 1, 5]
+marks.sort(reverse=True)
+print('Отсортипрованный список: ', marks)
+
+
+
+
+#ДЗ
+
+#1
+first_element = 1
+second_element = 2
+third_element = 3
+elements = [first_element, second_element, third_element]
+
+elements.sort(reverse=True)
+print('Список: ', elements)
+
+
+
+
+#2
+numbers = [1, 2, 3, 4, 5,]
+
+summa = sum(numbers)
+print(summa)
+
+
+
+
+#3
+# Добавление пункта
+products = ['tomatoes', 'cucumbers', 'apples', 'milk', 'tea']
+
+products.append('meat')
+
+print('Список после добавления пункта: ', products)
+
+# Замена 2 пункта на новый
+products_2 = ['tomatoes', 'cucumbers', 'apples', 'milk', 'tea']
+
+products_2[1] = ('salad') 
+
+print('Список после замены: ', products_2)
+
+# Длина списка
+
+products_3 = ['tomatoes', 'cucumbers', 'apples', 'milk', 'tea']
+
+print('Длина списка: ', len(products_3))
+
+# Сортировка списка по алфавиту
+
+products_4 = ['tomatoes', 'cucumbers', 'apples', 'milk', 'tea']
+
+products_4.sort(reverse=False)
+print('Список после сортировки: ', products_4)
+
+# Удаление последнего пункта
+
+products_5 = ['tomatoes', 'cucumbers', 'apples', 'milk', 'tea']
+
+products_5.pop(4)
+
+print('Список после удаления последнего пункта: ', products_5)

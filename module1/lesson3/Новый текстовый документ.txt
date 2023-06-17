@@ -1,0 +1,17 @@
+#1
+numbers = []
+for i in range(101):
+    numbers.append(i)
+print(numbers)
+
+#2
+from random import choice
+animal = input('Animal: ').split()
+description = input('Description: ').split()
+print(choice(description) + ' ' + choice(animal))
+
+#3
+from random import randint
+numbers = [randint(0, 5) for _ in range(30)]
+print(('Список чисел: '), numbers)
+print(('Кол-во 5: '), numbers.count(5))

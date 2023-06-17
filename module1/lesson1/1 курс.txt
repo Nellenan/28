@@ -1,0 +1,15 @@
+#Калькулятор
+number_1 = int(input('Введите первое число: '))
+number_2 = int(input('Введите второе число: '))
+
+print(number_1, '+', number_2, '=', number_1 + number_2)
+print(str(number_1) + '-' + str(number_2) + '=' + str(number_1 - number_2))
+
+print(number_1, '*' , number_2, '=', number_1 * number_2)
+print(str(number_1) + '/' + str(number_2) + '=' + str(number_1 / number_2))
+
+#Домашняя работа
+animal_1 = 'Заяц'
+animal_2 = 'Черепаха'
+
+print((animal_1), 'спит', ',' ,(animal_2), 'идёт')

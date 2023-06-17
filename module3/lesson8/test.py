@@ -1,0 +1,3 @@
+import cours
+
+print(cours)
