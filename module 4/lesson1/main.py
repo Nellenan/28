@@ -7,7 +7,7 @@
 #         print(sym, counter)
 #
 #
-# strcount('abacacbabcb')
+# strcount('abacababcb')
 
 
 def strcount(s):   # O(N)
