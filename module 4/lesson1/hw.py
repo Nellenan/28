@@ -1,6 +1,12 @@
-def palindrome(s):
-    h = len(s) // 2
-    print(s[:h] == s[:len(s) - h - 1:-1])
+print("Приветствую! Это программа создана для проверки слова  на палиндром.")
+
+while True:
+    s = input("Введите слово:")
 
 
-palindrome('лессел')  # Ввод слова для проверки на палиндром
+    def palindrome(s):
+        h = len(s) // 2
+        return s[:h] == s[:len(s) - h - 1:-1]
+
+
+    print(palindrome(s))
