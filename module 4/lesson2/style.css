@@ -10,7 +10,7 @@ h1 {
 
 
 .paragraph-2 {
-    border: red dotted 5px;
+    border: red dotted  5px;
     border-radius: 30px;
  /**margin-top: 50px;
     margin-left: 50px;
@@ -19,4 +19,11 @@ h1 {
    margin: 50px;
    padding: 20px;
 
+}
+
+.hw{
+    font-style: oblique;
+    font-size: 24px;
+    text-align: center;
+    text-shadow: 2px 2px green;
 }
